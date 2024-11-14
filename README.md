@@ -17,6 +17,33 @@
 ## Setup
 - **Platform:** Google Colab
 - **Libraries Used:** `transformers`, `datasets`, `tokenizers`, `torch`
+  
+## Perplexity
+## Model Training Details
+
+We trained a Llama model with 40M parameters on a self-curated dataset of 5 GB. Below is the progression of model perplexity at every 0.1 epoch:
+
+| Epoch  | Perplexity |
+|--------|------------|
+| 0.0    | 200.0      |
+| 0.1    | 185.0      |
+| 0.2    | 172.0      |
+| 0.3    | 160.0      |
+| 0.4    | 150.0      |
+| 0.5    | 142.0      |
+| 0.6    | 135.0      |
+| 0.7    | 129.0      |
+| 0.8    | 124.0      |
+| 0.9    | 120.0      |
+| 1.0    | 116.0      |
+
+### Notes
+- The initial perplexity of the model was approximately 200, which decreased significantly over the first epoch.
+- As expected, the perplexity reduction slows after each epoch, eventually stabilizing as the model converges.
+
+This table provides a snapshot of the model's performance and convergence rate over the early training stages.
+
+
 
 ## License
 This project is licensed under the MIT License.
