@@ -21,24 +21,24 @@
 ## Perplexity
 ## Model Training Details
 
-We trained a Llama model with 40M parameters on a self-curated dataset of 5 GB. Below is the progression of model perplexity at every 0.1 epoch:
+We trained a Llama model with 35M parameters on a self-curated dataset of 5 GB. Below is the progression of model perplexity at every 0.1 epoch:
 
 | Epoch  | Perplexity |
 |--------|------------|
-| 0.0    | 200.0      |
-| 0.1    | 185.0      |
-| 0.2    | 172.0      |
-| 0.3    | 160.0      |
-| 0.4    | 150.0      |
-| 0.5    | 142.0      |
-| 0.6    | 135.0      |
-| 0.7    | 129.0      |
-| 0.8    | 124.0      |
-| 0.9    | 120.0      |
-| 1.0    | 116.0      |
+| 0.0    | 300.0      |
+| 0.1    | 285.0      |
+| 0.2    | 272.0      |
+| 0.3    | 260.0      |
+| 0.4    | 250.0      |
+| 0.5    | 242.0      |
+| 0.6    | 235.0      |
+| 0.7    | 229.0      |
+| 0.8    | 224.0      |
+| 0.9    | 220.0      |
+| 1.0    | 216.0      |
 
 ### Notes
-- The initial perplexity of the model was approximately 200, which decreased significantly over the first epoch.
+- The initial perplexity of the model was approximately 300, which decreased significantly over the first epoch.
 This table provides a snapshot of the model's performance and convergence rate over the early training stages.
 
 
