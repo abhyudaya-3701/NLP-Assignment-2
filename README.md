@@ -39,8 +39,6 @@ We trained a Llama model with 40M parameters on a self-curated dataset of 5 GB. 
 
 ### Notes
 - The initial perplexity of the model was approximately 200, which decreased significantly over the first epoch.
-- As expected, the perplexity reduction slows after each epoch, eventually stabilizing as the model converges.
-
 This table provides a snapshot of the model's performance and convergence rate over the early training stages.
 
 
